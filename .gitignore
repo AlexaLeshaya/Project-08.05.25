@@ -1,0 +1,11 @@
+# Python / Streamlit
+__pycache__/
+.venv/
+*.log
+# Jupyter
+*.ipynb_checkpoints
+# Data
+data/btcusd_1-min_data.csv
+# Models (мы оставим только лёгкие файлы; тяжёлые — под LFS)
+*.h5
+*.pkl
